@@ -1,0 +1,24 @@
+/*Etiqueta*/
+body {
+  background-color: rgb(238, 137, 137);
+}
+
+h1 {
+  color: rgb(191, 130, 248); /*color de la letra*/
+  background-color: #e7782f; /*color del fondo*/
+  font-size: 100px; /*Tamaño de la letra*/
+}
+
+/*id*/
+#nombre {
+  color: #e7782f;
+  font-family: "Poppins", sans-serif; /*estilo de la letra*/
+}
+/*id*/
+#años {
+  color: #222275;
+}
+/*class*/
+.verde {
+  color: rgb(38, 90, 38);
+}

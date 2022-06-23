@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>imgenes, audios, css</title>
+    <!--Conectar el html con css-->
+    <link rel="stylesheet" href="/clase-tres/style.css" />
+    <link />
+
+    <!--Agregar google fonts para cambiar la letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>Unir html con css</h1>
+
+    <!--id: es un identificador único. No se puede repetir-->
+    <p id="nombre">Soy Ana Clara</p>
+    <p id="años">Tengo 30 años</p>
+
+    <!--class: se puede repetir-->
+    <span class="verde">Soy un span</span>
+    <p class="verde">Soy un p</p>
+    <h3 class="verde">soy un h3</h3>
+
+    <h2>Cómo agregar links</h2>
+
+    <!--Usamos la etiqueta <a></a>-->
+    <a
+      href="https://www.buenosaires.gob.ar/escuelasverdes/separacion-de-residuos-calcomanias-y-afiches"
+      >RECICLAJE</a
+    >
+
+    <!--Podemos hacer que un botón lleve a la página-->
+    <button>
+      <a
+        href="https://www.buenosaires.gob.ar/escuelasverdes/separacion-de-residuos-calcomanias-y-afiches"
+        >RECICLAJE</a
+      >
+    </button>
+
+    <!--Podemos hacer que al hacer click sobre una imagen nos lleve a una página-->
+
+    <a href="https://github.com/anaClara-Der/desarrollo-web">
+      <img src="multimedia/camilaImg.jpg" alt="cantante" />
+    </a>
+
+    <h2>Cómo agregar una imagen</h2>
+    <!--la imagen se guardó en una carpeta en la compu-->
+    <img
+      src="multimedia/perro-cachorro.jpg"
+      alt="Fotografía de un perro cachorro"
+    />
+
+    <!--se copió una imagen online-->
+    <img
+      src="https://www.hillspet.com.mx/content/dam/cp-sites/hills/hills-pet/es_mx/skyword/golden-retriever-puppy-running-in-field-SW.jpg"
+      alt="Fotografía de un perro cachorro"
+    />
+
+    <h2>Cómo agregar un audio</h2>
+    <audio src="multimedia/audio-camila.mp3" controls></audio>
+
+    <h2>Cómo agregar en el html contenido de otra página</h2>
+    <iframe
+      src="https://www.proyecto4patas.org/?gclid=Cj0KCQjwntCVBhDdARIsAMEwACkavW1kTlU8z8BCm20q9-EuYbkIuHbWli8Oa7JkYBt-lqbL1DoZF9AaAgoSEALw_wcB"
+      width="500px"
+      height="500px"
+    ></iframe>
+  </body>
+</html>
