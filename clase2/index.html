@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas,tablas,formulario</title>
+  </head>
+
+  <body>
+    <h2>Listas<h2>
+
+    <h3>Lista ordenada</h3>
+     <!--La etiqueta que uso es <ol>></ol>-->
+    <ol>
+      <li>Poner el agua en el fuego</li>
+      <li>Sacar el mate</li>
+      <li>Ponerle yerba</li>
+      <li>Poner la bombilla en el mate</li>
+      <li>Tirar el agua caliente en el mate</li>
+    </ol>
+
+    <h3>Lista desordenada</h3>
+    <!--La etiqueta que uso es <ul>></ul>-->
+    <ul>
+      <li>Sofía</li>
+      <li>Laura</li>
+      <li>María</li>
+      <li>Romina</li>
+      <li>Claudia</li>
+    <ul>
+
+      <h3>Lista de definiciones</h3>
+    <!--La etiqueta que uso es <dl>></dl>-->
+
+    <dl>
+      <dt>Perro:</dt> <!--El termino que voy a definir-->
+      <dd>Animal mamífero de cuatro patas</dd> <!--La definición-->
+    </dl>
+
+<!------------------------------------------------------------------------------------------------------------->
+
+<h3>tablas</h3>
+<!--Uso la etiqeta <table></table>-->
+
+<table>
+  <tr> <!--la etiqueta <tr></> indica la fila-->
+    <td>1</td>  <!--la etiqueta <tr></> indica la columna-->
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+</table>
+
+
+<!------------------------------------------------------------------------------------------------------------->
+
+<h3>Formularios</h3>
+<!--Uso la etiqeta <form></form>-->
+<form>
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre" name="nombre">
+
+  <label for="email">email</label>
+  <input type="email" id="email" name="nombre">
+
+  <label for="contraseña" >contraseña</label>
+  <input type="password" id="contraseña" name="contraseña">
+
+  <!--Radio-->
+  <label for="pantalon">pantalón</label>
+  <input type="radio" id="pantalon" name="ropa">
+
+  <label for="buzo">Buzo</label>
+  <input type="radio" id="pantalon" name="ropa">
+
+  <label for="remera">Remera</label>
+  <input type="radio" id="remera" name="ropa">
+
+   <!--Checkbox-->
+   <label for="condiciones">Acepta terminos y condiciones</label>
+  <input type="checkbox" id="condiciones" name="terminosYCondiciones">
+
+
+  <!--Select-->
+
+  <select>
+    <option value="argentina">Argentina</option>
+    <option value="brasil">Brasil</option>
+    <option value="uruguay">Uruguay</option>
+  </select>
+
+</form>
+
+  </body>
+</html>
