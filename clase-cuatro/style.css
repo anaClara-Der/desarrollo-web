@@ -1,0 +1,17 @@
+/*Receteo. Para que no tenga */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  border: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  background-color: red;
+}
